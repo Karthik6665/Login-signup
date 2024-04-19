@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    background: transparent;
+    box-sizing: border-box;
+}
+body,html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    position: relative;
+    top:10em;
+    height:60vh;
+    width:50vw;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10% rgb(151, 136, 136);
+    background-image: url("preview.webp");
+    background-size: cover;
+    border-radius: 2rem;
+    color:white
+}
+.box{
+    height:6%;
+}
+.pannel1{
+    height:100%;
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputbox{
+    background:transparent;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+     
+}
+.inpannel1{
+    height:auto;
+    padding: 2rem 5rem 2rem 5rem;
+    border: 1px solid transparent;
+    position: relative;
+    top:1rem;
+}
+.login{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.inpannel1:hover{
+    border: 1.5px solid transparent;
+    border-radius: 1rem;
+}
+.inpannel1:hover{
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+a{
+    color:white;
+    font-size: medium;
+}
+a:hover{
+    color:red;
+}
+label{
+    font-size:large;
+}
+input{
+    border: 1px solid transparent;
+}
+.inbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    top:1em;
+}
+
+button{
+    width:6vw;
+    height:17.6px;
+    display: inline;
+    background-color: yellow;
+    border:none;
+    border-radius: 1rem;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: 300;
+}
+button:hover{
+    background-color: rgb(156, 156, 24);
+    color:black;
+}
+.sigin{
+    width:6vw;
+    background-color: yellow;
+    color:black;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+    font-weight: 300;
+}
+.sigin:hover{
+    background-color: rgb(156, 156, 24);
+    color:black;
+}
+input:focus{
+    outline:none;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
